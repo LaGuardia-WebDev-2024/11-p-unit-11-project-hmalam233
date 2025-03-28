@@ -15,9 +15,9 @@ setup = function() {
 textSize(40);
 fill(20,3, 0);
 text(favFoods[0], 20, 40);
-text(favFoods[3], 20, 90);
-text(favFoods[6], 20, 130);
-text(favFoods[8], 20, 180);
+text(favFoods[1], random(0,600), 90);
+text(favFoods[2], 20, 130);
+text(favFoods[3], 20, 180);
 text(favFoods[4], 20, 230);
    
 textSize(90);
