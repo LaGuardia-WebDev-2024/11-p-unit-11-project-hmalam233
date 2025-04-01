@@ -16,7 +16,7 @@ textSize(40);
 fill(20,3, 0);
 text(favFoods[0], 20, 40);
 text(favFoods[1], random(0,600), 90);
-text(favFoods[2], 20, 130);
+text(favFoods[2], random(0,300), 90);
 text(favFoods[3], 20, 180);
 text(favFoods[4], 20, 230);
    
@@ -25,7 +25,10 @@ fill(90,20,20);
 text(myStickers[0], 40, 90);
 text(myStickers[1], 40, 150);
 
+if(keyPressed){
+if(key == 'a')
 
+}
 
    
    
