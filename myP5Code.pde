@@ -25,6 +25,15 @@ setup = function() {
    
    background(164, 212, 255);
 
+//for(start; how long; change)
+for (var x=0; x<400; x+=30){
+line (0, x, 400, x);
+}
+
+for (var i = 55; i < 350 ; i+=30){
+ text('Cheese', 50, i);
+}
+
 textSize(40);
 fill(20,3, 0);
 text(favFoods[0], 20, 40);
